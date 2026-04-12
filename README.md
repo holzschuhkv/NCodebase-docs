@@ -1,18 +1,13 @@
 # NCodebase
 
-<br/>
+NCodebase is a .NET/Angular application built for scraping, parsing, and delivering structured data from a wide range of websites. Its architecture includes multiple backend services, well‑defined data objects, web controllers, and a modular Angular frontend. The system is designed for extensible parsing logic and a highly flexible configuration layer that makes onboarding new data sources straightforward.
 
 ## Status:
 
-[![[DEV] Deployment](https://github.com/holzschuhkv/NCodebase/actions/workflows/deploy_dev.yml/badge.svg?branch=dev-main)](https://github.com/holzschuhkv/NCodebase/actions/workflows/deploy_dev.yml)
+[![[DEV] Deployment](https://img.shields.io/github/actions/workflow/status/holzschuhkv/NCodebase/dev_ci.yml?branch=dev-main&style=for-the-badge&label=[DEV]%20CI-Pipeline)](https://github.com/holzschuhkv/NCodebase/actions/workflows/dev_ci.yml)
+[![[DEV] Deployment](https://img.shields.io/github/actions/workflow/status/holzschuhkv/NCodebase/dev_deploy.yml?branch=dev-main&style=for-the-badge&label=[DEV]%20Deployment)](https://github.com/holzschuhkv/NCodebase/actions/workflows/dev_deployyml)
 
-<br/>
-
-## Overview
-
-NCodebase is a .NET/Angular application built for scraping, parsing, and delivering structured data from a wide range of websites. Its architecture includes multiple backend services, well‑defined data objects, web controllers, and a modular Angular frontend. The system is designed for extensible parsing logic and a highly flexible configuration layer that makes onboarding new data sources straightforward.
-
-<br/>
+[![[PROD] Deployment](https://img.shields.io/github/actions/workflow/status/holzschuhkv/NCodebase/prod_dev.yml?branch=main&style=for-the-badge&label=[PROD]%20Deployment)](https://github.com/holzschuhkv/NCodebase/actions/workflows/deploy_dev.yml)
 
 ## NCodebase Structure
 
@@ -21,8 +16,6 @@ Contains services, parsers, data models, and the core server application. The de
 
 **Frontend**
 An Angular single‑page application that consumes backend APIs and provides a modern, responsive user interface.
-
-<br/>
 
 ## Key Features
 
@@ -56,8 +49,6 @@ An Angular single‑page application that consumes backend APIs and provides a m
 - **AI‑Powered Data Intelligence (coming soon)**
   - An upcoming AI analysis layer will evaluate scraped data, detect patterns, and generate enriched insights beyond the raw information
 
-<br/>
-
 ## Example Data
 
 Below is an example JSON output produced by the scraper (date):
@@ -83,8 +74,6 @@ Below is an example JSON output produced by the scraper (date):
   }
 ]
 ```
-
-<br/>
 
 ## Project Status and Availability
 
