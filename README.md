@@ -1,28 +1,16 @@
 # NCodebase
 
-NCodebase is a .NET/Angular application built for scraping, parsing, and delivering structured data from a wide range of websites. Its architecture includes multiple backend services, well‑defined data objects, web controllers, and a modular Angular frontend. The system is designed for extensible parsing logic and a highly flexible configuration layer that makes onboarding new data sources straightforward.
+NCodebase is a .NET/Angular application built for scraping, parsing, and delivering structured data from a wide range of websites. Its architecture includes multiple backend services and a modular Angular frontend. The system is designed for extensible parsing logic and a flexible configuration layer that makes onboarding new data sources straightforward.
 
 ## Status:
 
-<center>
-
-[![[DEV] CI Pipeline](https://github.com/holzschuhkv/NCodebase/actions/workflows/dev_ci.yml/badge.svg?branch=dev-main)](https://github.com/holzschuhkv/NCodebase/actions/workflows/dev_ci.yml)
+[![[DEV] CI Pipeline](https://github.com/holzschuhkv/NCodebase/actions/workflows/dev_ci.yml/badge.svg?branch=dev-main)](https://github.com/holzschuhkv/NCodebase/actions/workflows/dev_ci.yml)<br/>
 [![[DEV] Deployment](https://github.com/holzschuhkv/NCodebase/actions/workflows/dev_deploy.yml/badge.svg)](https://github.com/holzschuhkv/NCodebase/actions/workflows/dev_deploy.yml)
-
-</center>
-
-## NCodebase Structure
-
-**Backend**
-Contains services, parsers, data models, and the core server application. The design supports modular scraping components and a clean separation between logic and data flow.
-
-**Frontend**
-An Angular single‑page application that consumes backend APIs and provides a modern, responsive user interface.
 
 ## Key Features
 
 - **Multi‑Website Support**
-  - Factory‑pattern architecture enables seamless onboarding of new website parsers. Currently supported websites:
+  - Clean architecture enables seamless onboarding of new website parsers. Currently supported websites:
     - Alternate
     - Hobauer
     - Kaufland
@@ -53,7 +41,7 @@ An Angular single‑page application that consumes backend APIs and provides a m
 
 ## Example Data
 
-Below is an example JSON output produced by the scraper (date):
+Below is an example JSON output produced by the scraper (last updated: 13.04.2026):
 
 ```json
 [
@@ -77,8 +65,8 @@ Below is an example JSON output produced by the scraper (date):
 ]
 ```
 
-## Project Status and Availability
+## Status and Availability
 
-NCodebase is currently in active development and progressing toward its first public release. Several components are still being in developement.
+NCodebase is currently in active development and progressing toward its first public release.
 
 The project’s domain is already accessible at **https://www.ncodebase.com**, serving as an early technical preview. It does not yet contain production data or finalized features. Its purpose is to reserve the domain, validate the hosting pipeline, and ensure a stable foundation for future releases.
