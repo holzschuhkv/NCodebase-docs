@@ -4,10 +4,12 @@ NCodebase is a .NET/Angular application built for scraping, parsing, and deliver
 
 ## Status:
 
-[![[DEV] Deployment](https://img.shields.io/github/actions/workflow/status/holzschuhkv/NCodebase/dev_ci.yml?branch=dev-main&style=for-the-badge&label=[DEV]%20CI-Pipeline)](https://github.com/holzschuhkv/NCodebase/actions/workflows/dev_ci.yml)
-[![[DEV] Deployment](https://img.shields.io/github/actions/workflow/status/holzschuhkv/NCodebase/dev_deploy.yml?branch=dev-main&style=for-the-badge&label=[DEV]%20Deployment)](https://github.com/holzschuhkv/NCodebase/actions/workflows/dev_deployyml)
+<center>
 
-[![[PROD] Deployment](https://img.shields.io/github/actions/workflow/status/holzschuhkv/NCodebase/prod_dev.yml?branch=main&style=for-the-badge&label=[PROD]%20Deployment)](https://github.com/holzschuhkv/NCodebase/actions/workflows/deploy_dev.yml)
+[![[DEV] CI Pipeline](https://github.com/holzschuhkv/NCodebase/actions/workflows/dev_ci.yml/badge.svg?branch=dev-main)](https://github.com/holzschuhkv/NCodebase/actions/workflows/dev_ci.yml)
+[![[DEV] Deployment](https://github.com/holzschuhkv/NCodebase/actions/workflows/dev_deploy.yml/badge.svg)](https://github.com/holzschuhkv/NCodebase/actions/workflows/dev_deploy.yml)
+
+</center>
 
 ## NCodebase Structure
 
